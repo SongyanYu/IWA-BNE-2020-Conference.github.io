@@ -12,21 +12,21 @@ a.button{
     border-radius:0.3rem;
 }
 
-.new-header, .new-footer, .new-header h3 { font-family: 'Montserrat', Helvetica, sans-serif; text-transform: uppercase; font-weight: normal; }
+.header, .footer, .header h3 { font-family: 'Montserrat', Helvetica, sans-serif; text-transform: uppercase; font-weight: normal; }
 
-h3.text-muted a {color: #999999; }
-h3.text-muted a:hover {color: #0088cc; }
+h3.text-muted a {text-decoration: none; color: #999999; }
+h3.text-muted a:hover {text-decoration: none; color: #0088cc; }
 
 
-.new-header{
+.header{
   padding-bottom: 9px;
-  margin: 30px 0 20px;
+  margin: 20px 0 10px;
   border-bottom: 1px solid #eeeeee;
 }
 
-.new-footer{
+.footer{
   padding-top: 9px;
-  margin: 30px 0 20px;
+  margin: 20px 0 10px;
   border-top: 1px solid #eeeeee;
 }
 

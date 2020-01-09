@@ -1,0 +1,40 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat);
+
+a.button{
+    color:white;
+    background-color: #99CCFF;
+    width:auto;
+    padding:0.4em 0.4em;
+    display: inline-block;
+    text-decoration: none;
+    border-style: none;
+    text-align: center;
+    border-radius:0.3rem;
+}
+
+.header, .footer, .header h3 { font-family: 'Montserrat', Helvetica, sans-serif; text-transform: uppercase; font-weight: normal; }
+
+h3.text-muted a {text-decoration: none; color: #999999; }
+h3.text-muted a:hover {text-decoration: none; color: #0088cc; }
+
+
+.header{
+  padding-bottom: 9px;
+  margin: 20px 0 10px;
+  border-bottom: 1px solid #eeeeee;
+}
+
+.footer{
+  padding-top: 9px;
+  margin: 20px 0 10px;
+  border-top: 1px solid #eeeeee;
+}
+
+
+/* Custom container */
+.container > hr { margin: 30px 0; }
+.container > hr.footer {margin-bottom: 15px; }
+
+.marketing p { line-height: 25px; }
+.marketing p.lead { line-height: 30px; }
+

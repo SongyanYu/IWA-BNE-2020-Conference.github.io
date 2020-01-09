@@ -12,29 +12,23 @@ a.button{
     border-radius:0.3rem;
 }
 
-.header, .footer, .header h3 { font-family: 'Montserrat', Helvetica, sans-serif; text-transform: uppercase; font-weight: normal; }
+.new-header, .new-footer, .new-header h3 { font-family: 'Montserrat', Helvetica, sans-serif; text-transform: uppercase; font-weight: normal; }
 
 h3.text-muted a {text-decoration: none; color: #999999; }
 h3.text-muted a:hover { text-decoration: none; color: #0088cc; }
 
 
-.header{
+.new-header{
   padding-bottom: 9px;
   margin: 30px 0 20px;
   border-bottom: 1px solid #eeeeee;
 }
 
-.footer{
+.new-footer{
   padding-top: 9px;
   margin: 30px 0 20px;
   border-top: 1px solid #eeeeee;
 }
-
-/* CV */
-.cv {line-height: 23px; width: 90%; margin: 0 auto;}
-.cv li { line-height: 23px; }
-.cv h2 { font-size: 26.5px; }
-.cv h1 { font-size: 32.5px; }
 
 
 /* Custom container */
